@@ -1,0 +1,62 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+section {
+    margin-top: 5rem;
+}
+
+ul {
+    list-style-type: none; /* Убирает буллиты */
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #f2d399;
+}
+
+p, li {
+    color: #f2d399;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+h2 {
+    margin-left: 5rem;
+    font-size: 60px;
+    text-align: center;
+}
+
+h3 {
+    margin-left: 7rem;
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+}
+.car__imgWrap, .bike__imgWrap {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.car, .bike {
+    margin-bottom: 4rem;
+}
